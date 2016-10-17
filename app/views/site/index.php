@@ -13,15 +13,10 @@ $page = Page::get('page-index');
 $this->title = $page->seo('title', $page->model->title);
 ?>
 
-<?= Carousel::widget(1140, 520) ?>
+<?= Carousel::widget(1920, 900) ?>
 
-<div class="text-center">
-    <h1><?= Text::get('index-welcome-title') ?></h1>
-    <p><?= $page->text ?></p>
-</div>
 
-<br/>
-<hr/>
+
 
 <div class="text-center">
     <h2>Last photos</h2>

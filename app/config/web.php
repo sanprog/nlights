@@ -15,7 +15,7 @@ $config = [
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => '',
+            'cookieValidationKey' => 'FnzopZF8gEMtCCD86jjfbfeXXsUMiiVW',
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
@@ -35,7 +35,7 @@ $config = [
         ],
         'assetManager' => [
             // uncomment the following line if you want to auto update your assets (unix hosting only)
-            //'linkAssets' => true,
+            'linkAssets' => true,
             'bundles' => [
                 'yii\web\JqueryAsset' => [
                     'js' => [YII_DEBUG ? 'jquery.js' : 'jquery.min.js'],
